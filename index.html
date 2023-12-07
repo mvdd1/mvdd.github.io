@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Roboto"
+        rel="stylesheet" />
+  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+        integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous" />
+  <link href="./videos/demo.css"
+        rel="stylesheet" />
+</head>
+
+<title>MVDD: Multi-View Depth Diffusion Models
+  Supplementary Materia</title>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand"
+       href="#">MVDD: Multi-View Depth Diffusion Models
+      Videos</a>
+
+    <button class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarToggle">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse"
+         id="navbarToggle">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link"
+             href="#"
+             ,
+             target="_self">Home</a>
+        </li>
+        <!-- <li class="nav-item">
+                <a class="nav-link" href="#Abstract", target="_self">Abstract</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Paper", target="_self">Paper</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Video_presentation", target="_self">Talks</a>
+            </li> -->
+        <li class="nav-item">
+          <a class="nav-link"
+             href="#results"
+             ,
+             target="_self">Results</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link"
+             href="#limitations"
+             ,
+             target="_self">Limitations</a>
+          </li_self> -->
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container"
+       style="padding-top: 80px; font-size: 20px">
+    <br>
+
+    <h1 class="text-center"
+        align="center"
+        style="font-size: 50px">
+        MVDD: Multi-View Depth Diffusion Models
+    </h1>
+    <p style="font-size: 35px; text-align:center">Supplementary Materials ⋅ In submission for CVPR 2024</p>
+    <!-- <p style="font-size: 22px; text-align:center">Please see our project webpage
+      <a href="https://augmentedperception.github.io/monoavatar/">https://augmentedperception.github.io/monoavatar/</a> for more results.</p> -->
+
+  </div>
+
+
+  <!-- Teaser -->
+  <!-- <div class="container" style="padding-top: 20px; font-size: 20px">
+    <hr>
+    <br>
+
+        <div align="center">
+        <div class="center">
+            <img class="img-responsive img-rounded" src="figure/teaser.jpg" style="width:100%" alt="">
+
+        </div>
+        <br>
+        </div>
+    </div><br> -->
+
+  <!-- Abstract -->
+  <div class="container"
+       style="text-align: center;">
+    <hr>
+    <h3 id="results"
+        style="padding-top: 80px; margin-top: -80px">Results of unconditional generation 
+        <!-- Results driven under the same capturing condition -->
+    </h3>
+    <p style="font-size: 22px; text-align:center">MVDD (Ours)</p>
+    <br>
+
+    Our learned model produces high-quality details:
+    <div class="opacity-off">
+      <!-- <video width="540"
+             height="310"
+             controls
+             autoplay
+             muted
+             loop>
+        <source src="videos/chair.gif"
+                type="video/mp4">
+      </video> -->
+      <img src="videos/chair_final.gif" alt="This is an animated gif image, but it does not move" width="180"/>
+      <img src="videos/chair_final1.gif" alt="This is an animated gif image, but it does not move" width="200"/>
+      <img src="videos/chair_final2.gif" alt="This is an animated gif image, but it does not move" width="200"/>
+      <img src="videos/chair_final3.gif" alt="This is an animated gif image, but it does not move" width="200"/>
+      <img src="videos/chair_final4.gif" alt="This is an animated gif image, but it does not move" width="200"/>
+
+      <img src="videos/car_final.gif" alt="This is an animated gif image, but it does not move" width="200"/>
+      <img src="videos/car_final1.gif" alt="This is an animated gif image, but it does not move" width="200"/>
+      <img src="videos/car_generate_final2.gif" alt="This is an animated gif image, but it does not move" width="200"/>
+      <img src="videos/car_generate_final3.gif" alt="This is an animated gif image, but it does not move" width="200"/>
+      <img src="videos/car_generate_final4.gif" alt="This is an animated gif image, but it does not move" width="200"/>
+      <img src="videos/airplane_final.gif" alt="This is an animated gif image, but it does not move" width="200"/>
+      <img src="videos/airplane_final1.gif" alt="This is an animated gif image, but it does not move" width="200"/>
+      <img src="videos/airplane_generate_final2.gif" alt="This is an animated gif image, but it does not move" width="200"/>
+      <img src="videos/airplane_generate_final3.gif" alt="This is an animated gif image, but it does not move" width="200"/>
+      <img src="videos/airplane_generate_final4.gif" alt="This is an animated gif image, but it does not move" width="200"/>
+ 
+
+    </div>
+
+      <br>
+      <hr>
+      <br>
+      <p style="font-size: 22px; text-align:center">Our model augmented with surface reconstruction method SAP</p>
+      <video width="200"
+      autoplay
+      muted
+      loop>
+      <source src="videos/chair0.mp4"
+              type="video/mp4">
+      </video>
+      <video width="200"
+      autoplay
+      muted
+      loop>
+      <source src="videos/chair1.mp4"
+              type="video/mp4">
+      </video>
+      <video width="230"
+      autoplay
+      muted
+      loop>
+      <source src="videos/chair2.mp4"
+              type="video/mp4">
+      </video>
+      <video width="180"
+      autoplay
+      muted
+      loop>
+      <source src="videos/chair3.mp4"
+              type="video/mp4">
+      </video>
+      <video width="230"
+      autoplay
+      muted
+      loop>
+      <source src="videos/chair4.mp4"
+              type="video/mp4">
+      </video>
+      <video width="200"
+      autoplay
+      muted
+      loop>
+      <source src="videos/car0.mp4"
+              type="video/mp4">
+      </video>
+      <video width="200"
+      autoplay
+      muted
+      loop>
+      <source src="videos/car1.mp4"
+              type="video/mp4">
+      </video>
+      <video width="200"
+      autoplay
+      muted
+      loop>
+      <source src="videos/car2.mp4"
+              type="video/mp4">
+      </video>
+      <video width="200"
+      autoplay
+      muted
+      loop>
+      <source src="videos/car3.mp4"
+              type="video/mp4">
+      </video>
+      <video width="200"
+      autoplay
+      muted
+      loop>
+      <source src="videos/car4.mp4"
+              type="video/mp4">
+      </video>
+
+      <video width="200"
+      autoplay
+      muted
+      loop>
+      <source src="videos/airplane0.mp4"
+              type="video/mp4">
+      </video>
+      <video width="200"
+      autoplay
+      muted
+      loop>
+      <source src="videos/airplane1.mp4"
+              type="video/mp4">
+      </video>
+      <video width="200"
+      autoplay
+      muted
+      loop>
+      <source src="videos/airplane2.mp4"
+              type="video/mp4">
+      </video>
+      <video width="200"
+      autoplay
+      muted
+      loop>
+      <source src="videos/airplane3.mp4"
+              type="video/mp4">
+      </video>
+      <video width="200"
+      autoplay
+      muted
+      loop>
+      <source src="videos/airplane4.mp4"
+              type="video/mp4">
+      </video>
+
+      <br>
+      <hr>
+      <br>
+  
+      <p style="font-size: 22px; text-align:center">Top: PVD (Zhou et al.); Bottom: LION (Zeng et al.)</p>
+  
+      
+      <div class="opacity-off">
+        <!-- <video width="540"
+               height="310"
+               controls
+               autoplay
+               muted
+               loop>
+          <source src="videos/chair.gif"
+                  type="video/mp4">
+        </video> -->
+        <img src="videos/chair_pvd.gif" alt="This is an animated gif image, but it does not move" width="250"/>
+        <img src="videos/car_pvd.gif" alt="This is an animated gif image, but it does not move" width="250"/>
+        <img src="videos/airplane_pvd.gif" alt="This is an animated gif image, but it does not move" width="250"/>
+        <br>
+        <img src="videos/chair_lion.gif" alt="This is an animated gif image, but it does not move" width="250"/>
+        <img src="videos/car_lion.gif" alt="This is an animated gif image, but it does not move" width="250"/>
+        <img src="videos/airplane_lion.gif" alt="This is an animated gif image, but it does not move" width="250"/>
+
+    <br>
+    <hr>
+    <br>
+    <script src="./demo/index.js"></script>
+</body>
+
+</html>
